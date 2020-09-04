@@ -1,0 +1,33 @@
+$widthTextSlide: calc(100% - 43%) ;
+
+
+.slide{
+    img{
+        width: 100%;
+    }
+    &_item{
+        position: relative;
+        &__title{
+            position: absolute;
+            bottom: 60px;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: $widthTextSlide;
+            text-align: center;
+            p{
+                background-color: #ff0000;
+                padding : 5px;
+                margin : 0 auto;
+                width: 80px;
+                color:#fff;
+            }
+            h3{
+                color:red;
+                font-family: 'Rufina', serif;
+                font-size: 49px;
+            }
+        }
+    }
+}

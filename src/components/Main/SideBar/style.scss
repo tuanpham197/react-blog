@@ -1,0 +1,92 @@
+.aboutMe{
+    &__avatar{
+        img{
+            width: 100%;
+        }
+    }
+    &__info{
+        p{
+            font-family: 'Quattrocento Sans', sans-serif;
+            font-size: 13.01px; 
+        }
+        p:first-child{
+            width: 80px;
+            margin-top: 30px;     
+            border-bottom: 2px solid #c9c9c9;
+        }
+        h3{
+            font-family: 'Rufina', serif;
+            font-size: 36.03px;
+        }
+    }
+    &__social{
+        margin-top:27px;
+        ul{
+            padding:0;
+            display: flex;
+            justify-content: space-between;
+            width: 120px;
+            align-items: bottom;
+            li:first-child{
+                color:#9c9c9c;
+            }
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color:#111111;
+                }
+            }
+        }
+    }
+}
+.subcribe{
+    background-color: #f5f5f5;
+    padding: 60px 20px 48px 20px;
+    button,button:hover,button:focus{
+        background-color: #111111;
+        border-color: #111111;
+    }
+}
+.lastPost{
+    &__title{
+        margin-top: 60px;
+        border-bottom: 1px solid #dcdcdc;
+        h5{
+            font-family: 'Rufina', serif;
+            font-size: 23.73px;
+            line-height: 23px;
+        }
+    }
+    &__list{
+        margin-bottom: 1px;
+        &_item{
+            p{
+                font-family: 'Quattrocento Sans', sans-serif;
+            }
+            p:first-child{   
+                font-size: 12.02px;
+                margin-top:36px;
+                font-style: italic;
+                color: #898989;
+                border-bottom:1px solid #b9b9b9;
+                width: 36px;
+            }
+            p:last-child{
+                margin-top:28px;
+                font-size: 13px;
+                color: #898989;          
+            }
+            h3{
+                font-family: 'Rufina', serif;
+                font-size: 16px;
+                line-height: 20px;
+                margin-top:8px;
+                margin-bottom: 0;
+            }
+            span{
+                color:#111111;
+            }
+        }
+    }
+}
